@@ -1,9 +1,9 @@
-go-console-json-formatter
+#go-console-json-formatter
 =========================
 
 A silly little console json formatter, written in go.
 
-Installation
+##Installation
 ============
 
 ```Shell
@@ -16,7 +16,7 @@ You may want to symlink the executable to somewhere on your path:
 ln -s $GOPATH/bin/go-console-json-formatter /usr/local/bin/jf
 ```
 
-Formatting Json
+##Formatting Json
 ===============
 ```Shell
 cat some_json_file.json | jf
