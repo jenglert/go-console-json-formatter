@@ -1,10 +1,8 @@
 #go-console-json-formatter
-=========================
 
 A silly little console json formatter, written in go.
 
 ##Installation
-============
 
 ```Shell
 go get github.com/jenglert/go-console-json-formatter
@@ -17,7 +15,7 @@ ln -s $GOPATH/bin/go-console-json-formatter /usr/local/bin/jf
 ```
 
 ##Formatting Json
-===============
+
 ```Shell
 cat some_json_file.json | jf
 ```
